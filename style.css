@@ -9,6 +9,17 @@ h1 {
     color:red
   }
 
+  h2 {
+    display: block;
+    font-size: 5em;
+    margin-top: 30em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color:red
+  }
+
   #btn-relax-mode {
     width: 10em;
     height: 2em;
