@@ -1,0 +1,37 @@
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-top: -0.2em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color:red
+  }
+
+  #btn-relax-mode {
+    width: 10em;
+    height: 2em;
+    background-color: darkseagreen;
+    position: relative;
+    margin-top:  3em;
+    margin-left: 1em;
+    color: purple;
+}
+
+.relax-mode{
+  background-color: pink;
+  transition-duration: 0.5s;
+}
+
+
+
+.wrapper {
+  display:inline-block;
+}
+
+.lineaProducto {font-size: 35px;
+}
+
+body {background-color: aqua;
+  transition-duration: 0.5s;}
