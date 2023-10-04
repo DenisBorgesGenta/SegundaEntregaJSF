@@ -1,4 +1,5 @@
- const body = document.body
+ function simulaciontienda()
+ {const body = document.body
  const btnRelaxMode = document.getElementById("btn-relax-mode")
  btnRelaxMode.addEventListener("click", toggleRelaxMode)
  function toggleRelaxMode(){
@@ -10,19 +11,19 @@
 contenido: "150ml",
 beneficios: "Mejora el proceso de reparación de la piel.", 
 tipoDePielRecomendada: "sensible",
-imagen: ".img/pleasing.jpeg"},
+imagen: "./img/pleasing.png"},
 
 {nombre: "HYALU B5 OJOS",
 contenido: "200ml",
 beneficios: "Repara y rellena la barrera de la piel del contorno de ojos.", 
 tipoDePielRecomendada: "grasa",
-imagen: "./imgs/pleasing.png"},
+imagen: "./img/pleasing.png"},
 
 {nombre: "HYALU B5 CREMA",
 contenido: "250ml",
 beneficios: "Reduce las arrugas. Rellena la piel aportando volumen y elasticidad.", 
 tipoDePielRecomendada: "seca",
-imagen: "./imgs/pleasing.png"}];
+imagen: "./img/pleasing.png"}];
 
 const contenedor = document.getElementById("contenedorProductos");
 
@@ -45,10 +46,10 @@ contenedorProd.innerHTML = `<center><div class="card mb-3" style="max-width: 600
 </div></center>`
 
 contenedor.appendChild(contenedorProd)
-});
+});}
 
 
-
+simulaciontienda();
 
 
 

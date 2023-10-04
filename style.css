@@ -6,43 +6,39 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    color:red
+    color:rgb(214, 245, 222)
   }
 
   h2 {
     display: block;
-    font-size: 5em;
-    margin-top: 30em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    margin-top: -3.3em;
+    margin-left: 5.4em;
     margin-right: 0;
     font-weight: bold;
-    color:red
+    color:rgb(101, 122, 102)
   }
 
   #btn-relax-mode {
     width: 10em;
     height: 2em;
-    background-color: darkseagreen;
+    background-color: rgb(183, 199, 183);
     position: relative;
-    margin-top:  3em;
-    margin-left: 1em;
-    color: purple;
+   margin-left: 23.5em;
+   margin-bottom: 0.3em;
+    color: rgb(79, 112, 93);
+    
 }
 
 .relax-mode{
-  background-color: pink;
+  background-color: rgb(38, 44, 41);
   transition-duration: 0.5s;
 }
 
 
-
-.wrapper {
-  display:inline-block;
-}
-
 .lineaProducto {font-size: 35px;
 }
 
-body {background-color: aqua;
+body {background-color: rgb(145, 170, 150);
   transition-duration: 0.5s;}
