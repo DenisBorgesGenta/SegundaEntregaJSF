@@ -11,7 +11,7 @@
 contenido: "150ml",
 beneficios: "Mejora el proceso de reparación de la piel.", 
 tipoDePielRecomendada: "sensible",
-imagen: "./img/pleasing.jpeg"},
+imagen: "../img/pleasing.jpeg"},
 
 {nombre: "HYALU B5 OJOS",
 contenido: "200ml",
@@ -32,7 +32,7 @@ let contenedorProd = document.createElement("div")
 contenedorProd.innerHTML = `<center><div class="card mb-3" style="max-width: 600px;">
 <div class="row g-0">
   <div class="col-md-4">
-  <img src="${productos.imagen}" style="></img>
+  <img src="https://i.imgur.com/avNzFds.png" width="200" height="200">
   </div>
   <div class="col-md-8">
     <div class="card-body">
@@ -49,7 +49,7 @@ contenedor.appendChild(contenedorProd)
 });
 
 // Estoy intentando guardar datos y mostrarlos guiándome con la clase de storage dada por Diana y no lo estoy logrando.
-// El push al array figura vacío.
+// El push al array figura vac
 
 class datosNewsletter {
 constructor(nombre, apellido, email)
@@ -71,13 +71,12 @@ let email = document.getElementById("ingresarEmail").value;
 
 function pushearDatos ()
 {let nuevosDatos  = (new datosNewsletter(nombre, apellido, email));
-nuevosDatos.push(datosI);}
+nuevosDatos.push(datosIngresados);}
 
 console.log(datosIngresados)
 
 
 let container = document.getElementById("divNews");
-container.textContent="";
 datosIngresados.forEach((dato)=>{
 let card = document.createElement("div");
 })}}
